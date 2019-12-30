@@ -84,6 +84,7 @@ CREATE TABLE t_goods_stock(
   goods_id INT NOT NULL COMMENT '商品编号',
   standard_info VARCHAR(255) NOT NULL COMMENT '规格详情',
   stock_num INT NOT NULL DEFAULT 0 COMMENT '库存量',
+  path VARCHAR(30) NOT NULL COMMENT '图片路径',
   price DOUBLE(10, 2) NOT NULL DEFAULT '0.00' COMMENT '价格'
 );
 
@@ -144,3 +145,12 @@ CREATE TABLE t_order_detail(
   num INT NOT NULL COMMENT '数量',
   all_price DOUBLE(10, 2) NOT NULL COMMENT '总价'
 );
+
+DROP TABLE IF EXISTS t_goods_picture;
+CREATE TABLE t_goods_picture(
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  path VARCHAR(30) NOT NULL COMMENT '图片路径',
+  goods_id INT NOT NULL COMMENT '商品编号'
+);
+
+
