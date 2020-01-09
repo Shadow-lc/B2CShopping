@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="b2cshoppingmall-bean" />
+        <module name="b2cshoppingmall-interface" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="b2cshoppingmall" target="1.8" />
       <module name="b2cshoppingmall-bean" target="1.8" />
+      <module name="b2cshoppingmall-interface" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

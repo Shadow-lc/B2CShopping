@@ -1,19 +1,19 @@
-package edu.graduation.b2cshoppingmall.car;
+package edu.graduation.b2cshoppingmall.car.bean;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * 收藏夹
+ * 购物车
  */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Collect {
+public class OrderCar {
 
     /**
-     * 收藏夹ID
+     * 购物车id
      */
     private int id;
 
@@ -28,7 +28,12 @@ public class Collect {
     private int goodsId;
 
     /**
-     * 收藏时间
+     * 数量
      */
-    private String collectionDate;
+    private int num;
+
+    /**
+     * 加入时间
+     */
+    private String addDate;
 }
