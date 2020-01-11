@@ -10,6 +10,8 @@
     <modules>
         <module>b2cshoppingmall-bean</module>
         <module>b2cshoppingmall-interface</module>
+        <module>b2cshoppingmall-servers</module>
+        <module>b2cshoppingmall-client</module>
     </modules>
     <packaging>pom</packaging>
 

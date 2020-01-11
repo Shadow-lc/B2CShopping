@@ -8,12 +8,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="b2cshoppingmall-bean" />
         <module name="b2cshoppingmall-interface" />
+        <module name="b2cshoppingmallclient" />
+        <module name="b2cshoppingmallservers" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="b2cshoppingmall" target="1.8" />
       <module name="b2cshoppingmall-bean" target="1.8" />
       <module name="b2cshoppingmall-interface" target="1.8" />
+      <module name="b2cshoppingmallclient" target="1.8" />
+      <module name="b2cshoppingmallservers" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
